@@ -1,0 +1,921 @@
+.contact {
+    background: url(../public/img/contact\ banner.webp );
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 60px 333px;
+    margin-bottom: 60px;
+}
+a {
+    text-decoration: none!important;
+}
+.contact h1 {
+    font-weight: bold;
+}
+.contact h3{
+    font-size: 25px;
+    padding: 20px 0;
+}
+.contact p{
+    font-size: 18px;
+    padding: 0 0 80px 0;
+}
+
+section {
+    margin: 0 5%;
+    box-shadow: 1px 1px 5px #8c8c8c;
+    padding: 60px 60px;
+    position: relative;
+    top: -130px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.form {
+    background: #fff;
+    width: 100%;
+    margin: 30px 0;
+    padding: 30px;
+    box-shadow: 1px 1px 5px #8c8c8c;
+}
+.cont-form {
+    border-right: 1px solid #8c8c8c;
+    padding-right: 30px!important;
+}
+input {
+    border-bottom: 1px solid #878787!important;
+    border: none;
+    width: 40%;
+    margin-right: 34px!important;
+    margin-bottom: 0px!important;
+    padding: 40px 0 0px 0;
+}
+.myfile {
+    margin-bottom: 1rem;
+    margin-top: 30px;
+}
+
+select {
+    border-bottom: 1px solid #878787!important;
+    width: 40%;
+    margin-right: 34px!important;
+    margin-bottom: 0px!important;
+    padding: 0px 0;
+}
+
+textarea {
+    resize: vertical;
+    width: 90%;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+.get-touch {
+    padding-left: 25px!important;
+}
+
+.get-touch i {
+    color: #f857a6;
+    transition: color .3s;
+    width: 100%;
+    position: relative;
+    left: 20px;
+    top: 25%;
+}
+
+.get-touch .email i {
+    color: #f857a6;
+    transition: color .3s;
+    width: 100%;
+    position: relative;
+    left: 20px;
+    top: 0%;
+}
+.whatsapps p {
+    padding: 0 0 0 20%;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 10px;
+    color: #000;
+}
+.get-touch .whatsapps .whatsapp img {
+    transition: color .3s;
+    width: 100%;
+    position: relative;
+    left: 45px;
+    top: 0%;
+    font-size: 52px;
+}
+.whatsapps .Whatsapp i {
+    fill: #0091f9;
+    border-color: #0091f9;
+    width: 1em;
+    height: 1em;
+    display: block;
+    font-size: 50px;
+    position: relative;
+    top: 5px;
+    left: 50px;
+}
+
+.skype .get-touch .email i {
+    color: #f857a6;
+    transition: color .3s;
+    width: 100%;
+    position: relative;
+    left: 20px;
+    top: 0%;
+}
+
+.skype i {
+    fill: #0091f9;
+    color: #0091f9;
+    border-color: #0091f9;
+    width: 1em;
+    height: 1em;
+    display: block;
+    font-size: 50px;
+    position: relative;
+    top: 5px;
+    left: 50px;
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .contact {
+        background: url(../public/img/contact\ banner.webp  );
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: #fff;
+        padding: 60px 333px;
+        margin-bottom: 60px;
+    }
+    .contact h1 {
+        font-weight: bold;
+    }
+    .contact h3{
+        font-size: 25px;
+        padding: 20px 0;
+    }
+    .contact p{
+        font-size: 18px;
+        padding: 0 0 80px 0;
+    }
+    
+    section {
+      margin-top: 150px;
+        margin: 0 5%;
+        box-shadow: 1px 1px 5px #8c8c8c;
+        padding: 60px 60px;
+        position: relative;
+        top: -130px;
+        background-color: #fff;
+        border-radius: 30px;
+    }
+    
+    .form {
+        background: #fff;
+        width: 100%;
+        margin: 30px 0;
+        padding: 30px;
+        box-shadow: 1px 1px 5px #8c8c8c;
+    }
+    .cont-form {
+        border-right: 1px solid #8c8c8c;
+        padding-right: 30px!important;
+    }
+    input {
+        border-bottom: 1px solid #878787!important;
+        border: none;
+        width: 40%;
+     
+        margin-right: 34px!important;
+       
+        margin-bottom: 0px!important;
+        padding: 40px 0 0px 0;
+        
+    }
+    
+    select {
+        border-bottom: 1px solid #878787!important;
+        border: none;
+        width: 40%;
+        margin-right: 34px!important;
+        margin-bottom: 0px!important;
+        padding: 0px 0;
+    }
+    textarea {
+        resize: vertical;
+        width: 90%;
+        margin: 3px!important;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+    }
+    input:focus, textarea:focus, select:focus{
+        outline: none;
+    }
+    .get-touch {
+        padding-left: 25px!important;
+    }
+    
+    .get-touch i {
+        color: #f857a6;
+        transition: color .3s;
+        width: 100%;
+        position: relative;
+        left: 20px;
+        top: 25%;
+    }
+    
+    .get-touch .email i {
+        color: #f857a6;
+        transition: color .3s;
+        width: 100%;
+        position: relative;
+        left: 20px;
+        top: 0%;
+    }
+    
+    .skype .get-touch .email i {
+        color: #f857a6;
+        transition: color .3s;
+        width: 100%;
+        position: relative;
+        left: 20px;
+        top: 0%;
+    }
+    .Whatsapp i {
+        fill: #0091f9;
+        color: #0091f9;
+        border-color: #0091f9;
+        width: 1em;
+        height: 1em;
+        display: block;
+        font-size: 50px;
+        position: relative;
+        top: 5px;
+        left: 50px;    
+    }
+    
+    .skype i {
+        fill: #0091f9;
+        color: #0091f9;
+        border-color: #0091f9;
+        width: 1em;
+        height: 1em;
+        display: block;
+        font-size: 50px;
+        position: relative;
+        top: 5px;
+        left: 50px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .contact {
+        background: url(../public/img/contact\ banner.webp );
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: #fff;
+        padding: 60px 170px;
+        margin-bottom: 60px;
+    }
+    .contact h1 {
+        font-weight: bold;
+    }
+    .contact h3{
+        font-size: 25px;
+        padding: 20px 0;
+    }
+    .contact p{
+        font-size: 18px;
+        padding: 0 0 80px 0;
+    }
+    
+    section {
+        margin: 0 5%;
+        box-shadow: 1px 1px 5px #8c8c8c;
+        padding: 60px 40px;
+        position: relative;
+        top: -130px;
+        background-color: #fff;
+        border-radius: 30px;
+    }
+    
+    .form {
+        background: #fff;
+        width: 100%;
+        margin: 30px 0;
+        padding: 30px;
+        box-shadow: 1px 1px 5px #8c8c8c;
+    }
+    .cont-form {
+        border-right: 1px solid #8c8c8c;
+        padding-right: 30px!important;
+    }
+    input {
+        border-bottom: 1px solid #878787!important;
+        border: none;
+        width: 35%;
+        margin-right: 34px!important;
+        margin-bottom: 40px!important;
+    }
+    
+    select {
+        border-bottom: 1px solid #878787!important;
+        border: none;
+        width: 40%;
+        margin-right: 34px!important;
+        margin-bottom: 0px!important;
+        padding: 0px 0;
+    }
+    textarea {
+        margin: 3px!important;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        resize: vertical;
+        width: 95%;
+    }
+    input:focus, textarea:focus, select:focus{
+        outline: none;
+    }
+    .get-touch {
+        padding-left: 25px!important;
+    }
+    
+    .get-touch i {
+        color: #f857a6;
+        transition: color .3s;
+        width: 100%;
+        position: relative;
+        left: 20px;
+        top: 25%;
+    }
+    
+    .get-touch .email i {
+        color: #f857a6;
+        transition: color .3s;
+        width: 100%;
+        position: relative;
+        left: 20px;
+        top: 0%;
+    }
+    
+    .skype .get-touch .email i {
+        color: #f857a6;
+        transition: color .3s;
+        width: 100%;
+        position: relative;
+        left: 20px;
+        top: 0%;
+    }
+    .sky h4 {
+        font-size: 20px;
+    }
+    
+    .skype i {
+        fill: #0091f9;
+        color: #0091f9;
+        border-color: #0091f9;
+        width: 1em;
+        height: 1em;
+        display: block;
+        font-size: 50px;
+        position: relative;
+        top: 5px;
+        left: 30px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .contact {
+        background: url(../public/img/contact\ banner.webp);
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: #fff;
+        padding: 60px 150px;
+        margin-bottom: 60px;
+    }
+    .contact h1 {
+        font-weight: bold;
+    }
+    .contact h3{
+        font-size: 25px;
+        padding: 20px 0;
+    }
+    .contact p{
+        font-size: 18px;
+        padding: 0 0 80px 0;
+    }
+    
+    section {
+        margin: 0 5%;
+        box-shadow: 1px 1px 5px #8c8c8c;
+        padding: 30px;
+        position: relative;
+        top: -130px;
+        background-color: #fff;
+        border-radius: 30px;
+    }
+    
+    .form {
+        background: #fff;
+        width: 100%;
+        margin: 30px 0;
+        padding: 30px;
+        box-shadow: 1px 1px 5px #8c8c8c;
+    }
+    .cont-form {
+        border-right: 1px solid #8c8c8c;
+        padding-right: 30px!important;
+    }
+    input {
+        border-bottom: 1px solid #878787!important;
+        border: none;
+        width: 40%;
+        margin-right: 34px!important;
+        margin-bottom: 30px!important;
+    }
+    
+    select {
+        border-bottom: 1px solid #878787!important;
+        border: none;
+        width: 40%;
+        margin-right: 34px!important;
+        margin-bottom: 30px!important;
+    }
+    textarea {
+        margin: 6px!important;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        resize: vertical;
+        width: 100%;
+    }
+    input:focus, textarea:focus, select:focus{
+        outline: none;
+    }
+    .get-touch {
+        padding-left: 25px!important;
+    }
+    .sky h4 {
+        font-size: 19px;
+        position: relative;
+        left: -20px;
+    }
+    
+    .get-touch i {
+        color: #f857a6;
+        transition: color .3s;
+        width: 100%;
+        position: relative;
+        left: 0px;
+        top: 25%;
+    }
+    
+    .get-touch .email i {
+        color: #f857a6;
+        transition: color .3s;
+        width: 100%;
+        position: relative;
+        left: 0px;
+        top: 0%;
+    }
+    
+    .skype .get-touch .email i {
+        color: #f857a6;
+        transition: color .3s;
+        width: 100%;
+        position: relative;
+        left: 0px;
+        top: 0%;
+    }
+    
+    .skype i {
+        fill: #0091f9;
+        color: #0091f9;
+        border-color: #0091f9;
+        width: 1em;
+        height: 1em;
+        display: block;
+        font-size: 50px;
+        position: relative;
+        top: 5px;
+        left: 15px;
+    }
+    .sky h4 {
+        font-size: 18px;
+        position: relative;
+        left: 0px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .contact {
+        background: url(../public/img/contact\ banner.webp);
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: #fff;
+        padding: 60px 50px;
+        margin-bottom: 60px;
+    }
+    .contact h1 {
+        font-weight: bold;
+    }
+    .contact h3{
+        font-size: 23px;
+        padding: 20px 0;
+    }
+    .contact p{
+        font-size: 18px;
+        padding: 0 0 80px 0;
+    }
+    
+    section {
+        margin: 0 5%;
+        box-shadow: 1px 1px 5px #8c8c8c;
+        padding: 30px;
+        position: relative;
+        top: -130px;
+        background-color: #fff;
+        border-radius: 30px;
+    }
+    
+    .form {
+        background: #fff;
+        width: 100%;
+        margin: 30px 0;
+        padding: 30px;
+        box-shadow: 1px 1px 5px #8c8c8c;
+    }
+    .cont-form {
+        border-right: 1px solid #8c8c8c;
+        padding-right: 30px!important;
+    }
+    input {
+        border-bottom: 1px solid #878787!important;
+        border: none;
+        width: 40%;
+        margin-right: 34px!important;
+        margin-bottom: 30px!important;
+    }
+    
+    select {
+        border-bottom: 1px solid #878787!important;
+        border: none;
+        width: 40%;
+        margin-right: 34px!important;
+        margin-bottom: 30px!important;
+    }
+    textarea {
+        margin: 3px!important;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        resize: vertical;
+        width: 100%;
+    }
+    input:focus, textarea:focus, select:focus{
+        outline: none;
+    }
+    .get-touch {
+        padding-left: 6px!important;
+    }
+    .sky h4 {
+        font-size: 19px;
+        position: relative;
+        left: -20px;
+    }
+    
+    .get-touch i {
+        color: #f857a6;
+        transition: color .3s;
+        width: 100%;
+        position: relative;
+        left: 0px;
+        top: 25%;
+    }
+    
+    .get-touch .email i {
+        color: #f857a6;
+        transition: color .3s;
+        width: 100%;
+        position: relative;
+        left: 0px;
+        top: 0%;
+    }
+    
+    .skype .get-touch .email i {
+        color: #f857a6;
+        transition: color .3s;
+        width: 100%;
+        position: relative;
+        left: 0px;
+        top: 0%;
+    }
+    
+    .skype i {
+        fill: #0091f9;
+        color: #0091f9;
+        border-color: #0091f9;
+        width: 1em;
+        height: 1em;
+        display: block;
+        font-size: 50px;
+        position: relative;
+        top: 5px;
+        left: 15px;
+    }
+    .sky h4 {
+        font-size: 18px;
+        position: relative;
+        left: 0px;
+    }
+}
+@media only screen and (max-width: 691px) {
+    .contact {
+        background: url(../public/img/contact\ banner.webp);
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: #fff;
+        padding: 60px 10px;
+        margin-bottom: 60px;
+    }
+    .contact h1 {
+        font-weight: bold;
+    }
+    .contact h3{
+        font-size: 23px;
+        padding: 20px 0;
+    }
+    .contact p{
+        font-size: 16px;
+        padding: 0 0 80px 0;
+    }
+    
+    section {
+        margin: 0 5%;
+        box-shadow: 1px 1px 5px #8c8c8c;
+        padding: 30px;
+        position: relative;
+        top: -130px;
+        background-color: #fff;
+        border-radius: 30px;
+    }
+    section p {
+        font-size: 13px;
+    }
+    
+    .form {
+        background: #fff;
+        width: 100%;
+        margin: 30px 0;
+        padding: 30px;
+        box-shadow: 1px 1px 5px #8c8c8c;
+    }
+    .cont-form {
+        border-right: 1px solid #8c8c8c;
+        padding-right: 30px!important;
+    }
+    input {
+        border-bottom: 1px solid #878787!important;
+        border: none;
+        width: 40%;
+        margin-right: 34px!important;
+        margin-bottom: 30px!important;
+    }
+    
+    select {
+        border-bottom: 1px solid #878787!important;
+        border: none;
+        width: 40%;
+        margin-right: 34px!important;
+        margin-bottom: 30px!important;
+    }
+    textarea {
+        margin: 3px!important;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        resize: vertical;
+        width: 100%;
+    }
+    input:focus, textarea:focus, select:focus{
+        outline: none;
+    }
+    .get-touch {
+        padding-left: 6px!important;
+    }
+    .sky h4 {
+        font-size: 19px;
+        position: relative;
+        left: -20px;
+    }
+    
+    .get-touch i {
+        color: #f857a6;
+        transition: color .3s;
+        width: 100%;
+        position: relative;
+        left: 0px;
+        top: 25%;
+    }
+    
+    .get-touch .email i {
+        color: #f857a6;
+        transition: color .3s;
+        width: 100%;
+        position: relative;
+        left: 0px;
+        top: 0%;
+    }
+    
+    .skype .get-touch .email i {
+        color: #f857a6;
+        transition: color .3s;
+        width: 100%;
+        position: relative;
+        left: 0px;
+        top: 0%;
+    }
+    
+    .skype i {
+        fill: #0091f9;
+        color: #0091f9;
+        border-color: #0091f9;
+        width: 1em;
+        height: 1em;
+        display: block;
+        font-size: 50px;
+        position: relative;
+        top: 5px;
+        left: 15px;
+    }
+    .sky h4 {
+        font-size: 18px;
+        position: relative;
+        left: 0px;
+    }
+}
+@media only screen and (max-width: 574px) {
+    .contact {
+        background: url(../public/img/contact\ banner.webp);
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: #fff;
+        padding: 60px 30px;
+        margin-bottom: 60px;
+    }
+    .contact h1 {
+        font-weight: bold;
+    }
+    .contact h3{
+        font-size: 22px;
+        padding: 20px 0;
+    }
+    .contact p{
+        font-size: 15px;
+        padding: 0 0 80px 0;
+    }
+    
+    section {
+        margin: 0 5%;
+        box-shadow: 1px 1px 5px #8c8c8c;
+        padding: 30px;
+        position: relative;
+        top: -130px;
+        background-color: #fff;
+        border-radius: 30px;
+    }
+    section p {
+        font-size: 16px;
+    }
+    
+    .form {
+        background: #fff;
+        width: 100%;
+        margin: 30px 0;
+        padding: 30px;
+        box-shadow: 1px 1px 5px #8c8c8c;
+    }
+    .cont-form {
+        border-right: none;
+        padding-right: 30px!important;
+    }
+    input {
+        border-bottom: 1px solid #878787!important;
+        border: none;
+        width: 100%;
+        margin-right: 34px!important;
+        margin-bottom: 30px!important;
+    }
+    
+    select {
+        border-bottom: 1px solid #878787!important;
+        border: none;
+        width: 40%;
+        margin-right: 34px!important;
+        margin-bottom: 30px!important;
+    }
+    textarea {
+        margin: 5px!important;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        resize: vertical;
+        width: 100%;
+    }
+    input:focus, textarea:focus, select:focus{
+        outline: none;
+    }
+    .get-touch {
+        padding-left: 6px!important;
+        padding-top: 30px;
+    }
+    .sky h4 {
+        font-size: 19px;
+        position: relative;
+        left: -20px;
+    }
+    
+    .get-touch i {
+        color: #f857a6;
+        transition: color .3s;
+        width: 100%;
+        position: relative;
+        left: 0px;
+        top: 25%;
+    }
+    .get-touch .whatsapps .whatsapp img {
+        transition: color .3s;
+        width: 15%;
+        position: relative;
+        left: 0px;
+        top: 86%;
+        font-size: 52px;
+    }
+    
+    .get-touch .email i {
+        color: #f857a6;
+        transition: color .3s;
+        width: 100%;
+        position: relative;
+        left: 0px;
+        top: 0%;
+    }
+    
+    .skype .get-touch .email i {
+        color: #f857a6;
+        transition: color .3s;
+        width: 100%;
+        position: relative;
+        left: 0px;
+        top: 0%;
+    }
+    
+    .skype i {
+        fill: #0091f9;
+        color: #0091f9;
+        border-color: #0091f9;
+        width: 1em;
+        height: 1em;
+        display: block;
+        font-size: 50px;
+        position: relative;
+        top: 5px;
+        left: 15px;
+    }
+    .sky h4 {
+        font-size: 18px;
+        position: relative;
+        left: 0px;
+    }
+    .text-center{
+      background: none;
+      position: relative;
+      bottom: 100px;
+    }
+    
+}

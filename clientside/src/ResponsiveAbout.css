@@ -1,0 +1,1385 @@
+@media only screen and (min-width: 1200px) {
+    .row {
+     
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: calc(0.5 * var(--bs-gutter-x));
+        margin-left: calc(-.5 * var(--bs-gutter-x));
+    }
+    .about {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+        url(../public/img/about-banner.png);
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .about h1 {
+        color: #fff;
+        text-align: center;
+        padding-top: 130px;
+        font-weight: bold;
+    }
+    .about h1 span:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 5px;
+        background: linear-gradient(to left,#ff5858 0%,#f857a6 100%);
+        width: 100%;
+        height: 11px;
+        mix-blend-mode: normal;
+        opacity: .5;
+        z-index: -0;
+    }
+    
+    .weare {
+        background-color: rgba(141, 198, 188, 0.2);
+        padding: 60px 6%;
+    }
+    .weare h2 {
+        text-align: center;
+        color: #000;
+        font-weight: bold;
+    }
+    .weare h2 span:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 5px;
+        background: linear-gradient(to left,#ff5858 0%,#f857a6 100%);
+        width: 100%;
+        height: 11px;
+        mix-blend-mode: normal;
+        opacity: .5;
+        z-index: -0;
+    }
+    .weare p {
+        font-size: 20px;
+        color: rgba(78, 78, 78, 1);
+        line-height: 1.5;
+        letter-spacing: 1.2px;
+    
+    }
+    
+    .sixdp {
+        background-color: #fff;
+        padding: 60px 3%;   
+    }
+    .sixdp h2 {
+        color: #000;
+        font-weight: bold;
+        text-align: center;
+    }
+    .sixdp p {
+        text-align: center;
+        font-size: 20px;
+        color: rgba(78, 78, 78, 1);
+        line-height: 1.5;
+        letter-spacing: 1.2px;
+    }
+    .sixdp .cards {
+        padding: 0 10px;
+        display: flex;
+        opacity: 1;
+        padding: 15px 0% 0 0%;
+        text-align: left;
+    }
+    .sixdp .cards h4 {
+        font-size: 98px;
+        position: relative;
+        left: 102px;
+        color: #E3E3E3;
+    }
+    .sixdp .cards p {
+        text-align: left;
+    }
+    
+    .sixdp .card-style-one .icon {
+        width: 100px;
+        height: 100px;
+        border-radius: 15px;
+        margin-left: -15px;
+        margin-top: 0px;
+    }
+    .sixdp .card-style-one .icon .lazy {
+        width: 90%;
+        margin-left: 130px;
+    }
+    .sixdp .card-style-one h5 {
+        font-size: 1.6rem;
+    }
+    .sixdp .card-style-one ul li {
+        font-size: 20px;
+        color: #4E4E4E;
+    }
+    
+    .contat {
+        background: linear-gradient(to left,#ff5858 0%,#f857a6 100%);
+        padding: 20px 6%;   
+        color: #fff;
+    }
+    .contat .row {
+        --bs-gutter-x: 0rem!important;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: calc(0.5 * var(--bs-gutter-x));
+        margin-left: calc(-.5 * var(--bs-gutter-x));
+    }
+    .contat button {
+        background: #D9D9D9;
+        float: right;
+        padding: 15px 30px;
+        font-size: 20px;
+        border: none;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .contat button:hover {
+        background: linear-gradient(to left,#ff5858 0%,#f857a6 100%);
+        color: #fff;
+    }
+    .whychoo {
+        background: #C4C4C4;
+    }
+    .whychoo img {
+        width: 100%;
+    }
+    .whychoo .row {
+        --bs-gutter-x: 0rem!important;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: calc(0.5 * var(--bs-gutter-x));
+        margin-left: calc(-.5 * var(--bs-gutter-x));
+    }
+    .program {
+        background-image: url(../public/img/Exp/programming-background-with-person-working-with-codes-computer.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .whychoo .chooseus {
+        padding: 40px 70px 40px 30px;
+    }
+    .whychoo .chooseus p {
+        font-size: 20px;
+        color: #4E4E4E;
+    }
+    .whychoo .section {
+        margin: 0 0%;
+        padding: 0px 0px;
+        position: relative;
+        top: 0;
+    }
+    .accordion {
+        position: relative;
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .title {
+        margin-top: 20px;
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    .content-accordion {
+        margin-top: 35px;
+        margin-right: 0px;
+    }
+    
+    .question-answer {
+        width: 100%;
+        border-bottom: 1px solid #e8e8e8;
+        background: #fff;
+        margin: 5px;
+    }
+    
+    .question {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        background-color: #fff;
+        padding: 0 10px;
+    }
+    
+    /*.accordion-img {
+        position: relative;
+        width: 320px;
+    }*/
+    
+    .title-question {
+        margin: 0.4rem 0rem;
+        font-size: 1rem;
+        font-weight: 500;
+        color: #000;
+    }
+    
+    .question-btn {
+        font-size: 1rem;
+        background: transparent;
+        border-color: transparent;
+        cursor: pointer;
+    }
+    
+    .up-icon {
+        display: none;
+    }
+    
+    .answer {
+        width: 100%;
+        font-size: 1rem;
+        line-height: 1.2;
+        display: none;
+        padding: 0 15px;
+    }
+    .answer p {
+        font-size: 1rem!important;
+    }
+    
+    .show-text .answer {
+        display: block;
+    }
+    
+    .show-text .up-icon{
+        display: inline;
+    }
+    
+    .show-text .down-icon {
+        display: none;
+    }
+    
+    .gua {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .ser {
+        font-size: 1.5rem;
+        padding-left: 20px;
+    }
+    
+    #second {
+        display: flex;
+        width: 100%;
+        padding: 80px 0 120px 0;
+    }
+      .present {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .box {
+        padding-top: 10px;
+        width: 170px !important;
+        height: 170px;
+        font-size: 40px;
+        border-radius: 50%;
+        border: 7px solid lightgrey;
+        position: relative;
+        transition: 0.3s ease-out;
+        cursor: pointer;
+        margin-left: 100px;
+      }
+    
+      .pro {
+        margin-left: 0 !important;
+      }
+    
+      .box h1 {
+        font-size: 28px;
+        padding-top: 35px;
+        margin-left: 90px;
+        align-items: center;
+        text-align: center;
+        margin: 16px;
+      }
+    
+      .box:hover {
+        border: 7px solid rgb(248, 87, 166, 1);
+      }
+      
+      .box p {
+        font-size: 20px;
+        margin-top: 80px;
+        letter-spacing: 2px;
+        line-height: 1.3;
+        text-align: center;
+      }
+      
+      .box img {
+        top: 0px;
+        width: 60px;
+        height: 60px;
+        margin-left: 70%;
+        position: absolute;
+        background-color: #fff;
+        border-radius: 50%;
+        border: 10px;
+        border-color: white;
+        padding: 5px;
+      }
+    
+      .footor1 .row {
+        --bs-gutter-x: 0rem!important;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: calc(0 * var(--bs-gutter-x)) !important;
+        margin-left: calc(-.5 * var(--bs-gutter-x));
+    }
+
+    .would {
+      background-image: url(../public/img/Exp/Rectangle\ 57.webp);
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 91%;
+      height: 242px;
+      position: relative;
+      top: -280px;
+      padding: 0 5%;
+  } 
+  .would h4{
+      color: #fff;
+      padding-top: 11px;
+      letter-spacing: 1.5px;
+      font-size: 30px;
+  }
+  .would p {
+      color: #fff;
+      padding-right: 35%;
+      padding-top: 0px;
+      letter-spacing: 1.5px;
+      padding-top: 10px;
+      font-size: 18px;
+  }
+   .would button {
+      background: linear-gradient(to left,#ff5858 0%,#f857a6 100%);
+      padding: 10px 20px;
+      color: #fff;
+      font-weight: 600;
+      border: none;
+      margin-top: 21px;
+     
+      border-radius: 10px;
+  }
+   .would button:hover{
+      background: lightgrey;
+      color: #000;
+  }
+
+
+    
+    
+}
+@media only screen and (max-width: 1200px) {
+  .sec {
+      padding: 104px 5% 32%;
+      margin: 10px 10px 163px;
+      background-image: url(http://localhost:3000/static/media/bg-1.43cf703c.35acfee….webp);
+      height: 390Px;
+      width: 86%;
+      background-color: #8DC6BC;
+      margin-left: 14%;
+      margin-top: 1%;
+      margin-bottom: -7%;
+      opacity: 0.5;
+      position: relative;
+      top: 0px;
+  } 
+  
+  
+  
+  
+  
+  .sixdp .cards h4 {
+        font-size: 98px;
+        position: relative;
+        left: 102px;
+        color: #E3E3E3;
+    }
+
+    .box {
+        padding-top: 0px;
+        width: 170px !important;
+        height: 170px;
+        font-size: 40px;
+        border-radius: 50%;
+        border: 7px solid lightgrey;
+        position: relative;
+        transition: 0.3s ease-out;
+        cursor: pointer;
+        margin-left: 50px;
+    }
+    .sixdp .card-style-one {
+        padding: 20px 20px;
+        margin-right: 20px;
+        border: 1px solid lightgrey;
+        box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.25);
+        background: rgba(249, 249, 249, 1);
+        width: 31.3%!important;
+        border-radius: 10px;
+    }
+    .would {
+      background-image: url(../public/img/Exp/Rectangle\ 57.webp);
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 91%;
+      height: 242px;
+      position: relative;
+      top: -280px;
+      padding: 0 5%;
+  } 
+  .would h4{
+      color: #fff;
+      padding-top: 11px;
+      letter-spacing: 1.5px;
+      font-size: 30px;
+  }
+  .would p {
+      color: #fff;
+      padding-right: 35%;
+      padding-top: 0px;
+      letter-spacing: 1.5px;
+      padding-top: 10px;
+      font-size: 18px;
+  }
+   .would button {
+      background: linear-gradient(to left,#ff5858 0%,#f857a6 100%);
+      padding: 10px 20px;
+      color: #fff;
+      font-weight: 600;
+      border: none;
+      margin-top: 21px;
+     
+      border-radius: 10px;
+  }
+   .would button:hover{
+      background: lightgrey;
+      color: #000;
+  }
+
+
+}
+@media only screen and (max-width: 991px) {
+    .sixdp .cards h4 {
+        font-size: 77px;
+        position: relative;
+        left: 50px;
+        color: #E3E3E3;
+    }
+    .sixdp .card-style-one {
+        padding: 20px 20px;
+        margin-right: 11px;
+        border: 1px solid lightgrey;
+        box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.25);
+        background: rgba(249, 249, 249, 1);
+        width: 31.7%!important;
+    }
+    .box {
+        padding-top: 0px;
+        width: 140px !important;
+        height: 140px;
+        font-size: 40px;
+        border-radius: 50%;
+        border: 7px solid lightgrey;
+        position: relative;
+        transition: 0.3s ease-out;
+        cursor: pointer;
+        margin-left: 50px;
+    }
+    .box h1 {
+        font-size: 20px;
+        padding-top: 35px;
+        align-items: center;
+        text-align: center;
+        margin: 16px;
+    }
+    .contat h2 {
+        font-size: 25px;
+    }
+    .would {
+      background-image: url(../public/img/Exp/Rectangle\ 57.webp);
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 91%;
+      height: 242px;
+      position: relative;
+      top: -280px;
+      padding: 0 5%;
+  } 
+  .would h4{
+      color: #fff;
+      padding-top: 11px;
+      letter-spacing: 1.5px;
+      font-size: 30px;
+  }
+  .would p {
+      color: #fff;
+      padding-right: 35%;
+      padding-top: 0px;
+      letter-spacing: 1.5px;
+      padding-top: 10px;
+      font-size: 18px;
+  }
+   .would button {
+      background: linear-gradient(to left,#ff5858 0%,#f857a6 100%);
+      padding: 10px 20px;
+      color: #fff;
+      font-weight: 600;
+      border: none;
+      margin-top: 21px;
+     
+      border-radius: 10px;
+  }
+   .would button:hover{
+      background: lightgrey;
+      color: #000;
+  }
+
+
+}
+
+@media only screen and (max-width: 875px) {
+    .sixdp .card-style-one {
+        padding: 20px 20px;
+        margin-right: 11px;
+        border: 1px solid lightgrey;
+        box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.25);
+        background: rgba(249, 249, 249, 1);
+        width: 31.7%!important;
+    }
+    .sixdp .card-style-one .icon .lazy {
+        width: 90%;
+        margin-left: 100px;
+    }
+    .sixdp .cards h4 {
+        font-size: 77px;
+        position: relative;
+        left: 102px;
+        color: #E3E3E3;
+    }
+    .box {
+        padding-top: 0px;
+        width: 130px !important;
+        height: 130px;
+        border-radius: 50%;
+        border: 7px solid lightgrey;
+        position: relative;
+        transition: 0.3s ease-out;
+        cursor: pointer;
+        margin-left: 50px;
+    }
+    .box h1 {
+        font-size: 22px;
+        padding-top: 40px;
+        align-items: center;
+        text-align: center;
+        margin: 5px;
+    }
+    .sixdp .card-style-one {
+        padding: 20px 20px;
+        margin-right: 11px;
+        border: 1px solid lightgrey;
+        box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.25);
+        background: rgba(249, 249, 249, 1);
+        width: 31.82%!important;
+    }
+    .box p {
+        font-size: 18px;
+        margin-top: 60px;
+        letter-spacing: 2px;
+        line-height: 1.3;
+        text-align: center;
+    }
+
+    .would {
+      background-image: url(../public/img/Exp/Rectangle\ 57.webp);
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 91%;
+      height: 242px;
+      position: relative;
+      top: -280px;
+      padding: 0 5%;
+  } 
+  .would h4{
+      color: #fff;
+      padding-top: 11px;
+      letter-spacing: 1.5px;
+      font-size: 30px;
+  }
+  .would p {
+      color: #fff;
+      padding-right: 35%;
+      padding-top: 0px;
+      letter-spacing: 1.5px;
+      padding-top: 10px;
+      font-size: 18px;
+  }
+   .would button {
+      background: linear-gradient(to left,#ff5858 0%,#f857a6 100%);
+      padding: 10px 20px;
+      color: #fff;
+      font-weight: 600;
+      border: none;
+      margin-top: 21px;
+     
+      border-radius: 10px;
+  }
+   .would button:hover{
+      background: lightgrey;
+      color: #000;
+  }
+
+
+    
+}
+@media only screen and (max-width: 791px) {
+    .sixdp .card-style-one {
+        padding: 20px 20px;
+        margin-right: 14px;
+        border: 1px solid lightgrey;
+        box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.25);
+        background: rgba(249, 249, 249, 1);
+        width: 30%!important;
+    }
+    .sixdp .card-style-one .icon .lazy {
+        width: 90%;
+        margin-left: 70px;
+    }
+    .sixdp .cards h4 {
+        font-size: 61px;
+        position: relative;
+        left: 20px;
+        color: #E3E3E3;
+    }
+    .sixdp .card-style-one h5 {
+        font-size: 1.0rem;
+    }
+    .sixdp .card-style-one ul li {
+        font-size: 14px;
+        color: #4E4E4E;
+    }
+    .box {
+        padding-top: 0px;
+        width: 110px !important;
+        height: 110px;
+        border-radius: 50%;
+        border: 7px solid lightgrey;
+        position: relative;
+        transition: 0.3s ease-out;
+        cursor: pointer;
+        margin-left: 50px;
+    }
+    .box h1 {
+        font-size: 16px;
+        padding-top: 35px;
+        align-items: center;
+        text-align: center;
+        margin: 5px;
+    }
+    .box p {
+        font-size: 13px;
+        margin-top: 60px;
+        letter-spacing: 2px;
+        line-height: 1.3;
+        text-align: center;
+    }
+    .box img {
+        top: 0px;
+        width: 60px;
+        height: 60px;
+        margin-left: 50%;
+        position: absolute;
+        background-color: #fff;
+        border-radius: 50%;
+        border: 10px;
+        border-color: white;
+        padding: 5px;
+    }
+    .would {
+      background-image: url(../public/img/Exp/Rectangle\ 57.webp);
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 91%;
+      height: 242px;
+      position: relative;
+      top: -280px;
+      padding: 0 5%;
+  } 
+  .would h4{
+      color: #fff;
+      padding-top: 11px;
+      letter-spacing: 1px;
+      font-size: 26px;
+  }
+  .would p {
+      color: #fff;
+      padding-right: 35%;
+      padding-top: 0px;
+      letter-spacing: 1px;
+      padding-top: 8px;
+      font-size: 18px;
+  }
+   .would button {
+      background: linear-gradient(to left,#ff5858 0%,#f857a6 100%);
+      padding: 10px 20px;
+      color: #fff;
+      font-weight: 600;
+      border: none;
+      margin-top: 1px;
+     
+      border-radius: 10px;
+  }
+   .would button:hover{
+      background: lightgrey;
+      color: #000;
+  }
+
+
+    
+}
+@media only screen and (max-width: 675px) {
+    .sixdp .card-style-one {
+        padding: 20px 20px;
+        margin-right: 11px;
+        border: 1px solid lightgrey;
+        box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.25);
+        background: rgba(249, 249, 249, 1);
+        width: 31.25%!important;
+    }
+    .sixdp .card-style-one .icon .lazy {
+        width: 60%;
+        margin-left: 30px;
+    }
+    .sixdp .cards h4 {
+        font-size: 50px;
+        position: relative;
+        left: 30px;
+        color: #E3E3E3;
+    }
+    .sixdp .card-style-one h5 {
+        font-size: 1.0rem;
+    }
+    .sixdp .card-style-one ul li {
+        font-size: 14px;
+        color: #4E4E4E;
+    }
+    .box {
+        padding-top: 0px;
+        width: 90px !important;
+        height: 90px;
+        border-radius: 50%;
+        border: 7px solid lightgrey;
+        position: relative;
+        transition: 0.3s ease-out;
+        cursor: pointer;
+        margin-left: 50px;
+    }
+    .box img {
+        top: 0px;
+        width: 40px;
+        height: 40px;
+        margin-left: 50%;
+        position: absolute;
+        background-color: #fff;
+        border-radius: 50%;
+        border: 10px;
+        border-color: white;
+        padding: 5px;
+    }
+    .box h1 {
+        font-size: 11px;
+        padding-top: 35px;
+        align-items: center;
+        text-align: center;
+        margin: 5px;
+    }
+    .box p {
+        font-size: 8px;
+        margin-top: 60px;
+        letter-spacing: 2px;
+        line-height: 1.3;
+        text-align: center;
+    }
+    .addr img {
+        vertical-align: middle;
+        width: 70%!important;
+        padding-top: 5px;
+        position: relative;
+        right: 20px;
+        top: 4px;
+    }
+    .addr p {
+        position: relative;
+        left: -24px!important;
+        color: #fff;
+    }
+    .would {
+      background-image: url(../public/img/Exp/Rectangle\ 57.webp);
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 91%;
+      height: 242px;
+      position: relative;
+      top: -280px;
+      padding: 0 5%;
+  } 
+  .would h4{
+      color: #fff;
+      padding-top: 8px;
+      letter-spacing: 1px;
+      font-size: 21px;
+  }
+  .would p {
+      color: #fff;
+      padding-right: 35%;
+      padding-top: 0px;
+      letter-spacing: 1px;
+      padding-top: 7px;
+      font-size: 18px;
+  }
+   .would button {
+      background: linear-gradient(to left,#ff5858 0%,#f857a6 100%);
+      padding: 10px 20px;
+      color: #fff;
+      font-weight: 600;
+      border: none;
+      margin-top: 10px;
+     
+      border-radius: 10px;
+  }
+   .would button:hover{
+      background: lightgrey;
+      color: #000;
+  }
+
+
+    
+}
+@media only screen and (max-width: 575px) {
+  .top-notch .shape-eight {
+      left: 2%;
+      bottom: -27px;
+      animation: prXOne 3.5s linear infinite;
+      width: 10%;
+      position: absolute;
+      z-index: -1;
+      display: block;
+      max-width: 100%;
+      /* vertical-align: middle; */
+  }
+
+
+  .sec {
+      padding: 83px 5% 32%;
+      margin: 10px 10px 163px;
+      background-image: url(http://localhost:3000/static/media/bg-1.43cf703c.35acfee….webp);
+      height: 344Px;
+      width: 86%;
+      background-color: #8DC6BC;
+      margin-left: 14%;
+      margin-top: 5%;
+      margin-bottom: -7%;
+      opacity: 0.5;
+      position: relative;
+      top: 0px;
+  }
+    .sixdp .card-style-one .icon {
+        width: 100px;
+        height: 100px;
+        border-radius: 15px;
+        margin-left: 0;
+        margin-top: 0px;
+    }
+    .sixdp .card-style-one .icon .lazy {
+        width: 100%;
+        margin-left: 107px;
+    }
+    .sixdp .card-style-one {
+        padding: 20px 20px;
+        margin-right: 11px;
+        border: 1px solid lightgrey;
+        box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.25);
+        background: rgba(249, 249, 249, 1);
+        width: 100%!important;
+    }
+    .sixdp .cards h4 {
+        font-size: 100px;
+        position: relative;
+        left: 200px;
+        color: #E3E3E3;
+    }
+    .sixdp .card-style-one h5 {
+        font-size: 3.6rem;
+    }
+    .sixdp .card-style-one ul li {
+        font-size: 30px;
+        color: #4E4E4E;
+    }
+    .box {
+        padding-top: 0px;
+        width: 180px !important;
+        height: 180px;
+        border-radius: 50%;
+        border: 7px solid lightgrey;
+        position: relative;
+        transition: 0.3s ease-out;
+        cursor: pointer;
+        margin-left: 40px;
+        margin-bottom: 100px;
+    }
+    .box h1 {
+        font-size: 40px;
+        padding-top: 60px;
+        align-items: center;
+        text-align: center;
+        margin: 5px;
+    }
+    .box p {
+        font-size: 22px;
+        margin-top: 75px;
+        letter-spacing: 2px;
+        line-height: 1.3;
+        text-align: center;
+    }
+    .box img {
+        top: 0px;
+        width: 70px;
+        height: 70px;
+        margin-left: 60%;
+        position: absolute;
+        background-color: #fff;
+        border-radius: 50%;
+        border: 10px;
+        border-color: white;
+        padding: 5px;
+    }
+    #second .row {
+        --bs-gutter-x: 0rem!important;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: calc(0.5 * var(--bs-gutter-x));
+        margin-left: calc(-.5 * var(--bs-gutter-x));
+    }
+    .pro {
+        margin-left: 40px !important;
+    }
+    .addr img {
+        vertical-align: middle;
+        width: 70%!important;
+        padding-top: 5px;
+        position: relative;
+        right: -10px;
+        top: 4px;
+    }
+    .addr p {
+        position: relative;
+        left: 32px!important;
+        color: #fff;
+    }
+    .program {
+        background-image: url(../public/img/Exp/programming-background-with-person-working-with-codes-computer.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+    }
+    .would {
+      background-image: url(../public/img/Exp/Rectangle\ 57.webp);
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 91%;
+      height: 242px;
+      position: relative;
+      top: -265px;
+      padding: 0 5%;
+  } 
+  .would h4{
+      color: #fff;
+      padding-top: 11px;
+      letter-spacing: 1px;
+      font-size: 18px;
+  }
+  .would p {
+      color: #fff;
+      padding-right: 35%;
+      padding-top: 0px;
+      letter-spacing: 1px;
+      padding-top: 10px;
+      font-size: 13px;
+  }
+   .would button {
+      background: linear-gradient(to left,#ff5858 0%,#f857a6 100%);
+      padding: 10px 20px;
+      color: #fff;
+      font-weight: 600;
+      border: none;
+      margin-top: 18px;
+     
+      border-radius: 10px;
+  }
+   .would button:hover{
+      background: lightgrey;
+      color: #000;
+  }
+
+
+}
+
+/* @media only screen and (max-width: 575px) {
+    .sixdp .card-style-one .icon {
+        width: 100px;
+        height: 100px;
+        border-radius: 15px;
+        margin-left: 0;
+        margin-top: 0px;
+    }
+    .sixdp .card-style-one .icon .lazy {
+        width: 100%;
+        margin-left: 107px;
+    }
+    .sixdp .card-style-one {
+        padding: 20px 20px;
+        margin-right: 11px;
+        border: 1px solid lightgrey;
+        box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.25);
+        background: rgba(249, 249, 249, 1);
+        width: 100%!important;
+    }
+    .sixdp .cards h4 {
+        font-size: 100px;
+        position: relative;
+        left: 210px;
+        color: #E3E3E3;
+    }
+    .sixdp .card-style-one h5 {
+        font-size: 3.6rem;
+    }
+    .sixdp .card-style-one ul li {
+        font-size: 30px;
+        color: #4E4E4E;
+    }
+    .box {
+        padding-top: 0px;
+        width: 140px !important;
+        height: 140px;
+        border-radius: 50%;
+        border: 7px solid lightgrey;
+        position: relative;
+        transition: 0.3s ease-out;
+        cursor: pointer;
+        margin-left: 40px;
+        margin-bottom: 100px;
+    }
+    .box h1 {
+        font-size: 30px;
+        padding-top: 40px;
+        align-items: center;
+        text-align: center;
+        margin: 5px;
+    }
+    .box p {
+        font-size: 22px;
+        margin-top: 75px;
+        letter-spacing: 2px;
+        line-height: 1.3;
+        text-align: center;
+    }
+    .box img {
+        top: 0px;
+        width: 70px;
+        height: 70px;
+        margin-left: 75%;
+        position: absolute;
+        background-color: #fff;
+        border-radius: 50%;
+        border: 10px;
+        border-color: white;
+        padding: 5px;
+    }
+    #second .row {
+        --bs-gutter-x: 0rem!important;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: calc(0.5 * var(--bs-gutter-x));
+        margin-left: calc(-.5 * var(--bs-gutter-x));
+    }
+    .pro {
+        margin-left: 40px !important;
+    }
+    .addr img {
+        vertical-align: middle;
+        width: 70%!important;
+        padding-top: 5px;
+        position: relative;
+        right: 5px;
+        top: 4px;
+    }
+    .addr p {
+        position: relative;
+        left: 10px!important;
+        color: #fff;
+    }
+    .program {
+        background-image: url(../public/img/Exp/programming-background-with-person-working-with-codes-computer.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+    }
+} */
+@media only screen and (max-width: 475px) {
+
+
+  .top-notch .shape-eight {
+      left: 2%;
+      bottom: -20px;
+      animation: prXOne 3.5s linear infinite;
+      width: 10%;
+      position: absolute;
+      z-index: -1;
+      display: block;
+      max-width: 100%;
+      /* vertical-align: middle; */
+  }
+  .sec {
+      padding: 83px 5% 32%;
+      margin: 10px 10px 163px;
+      background-image: url(http://localhost:3000/static/media/bg-1.43cf703c.35acfee….webp);
+      height: 329Px;
+      width: 86%;
+      background-color: #8DC6BC;
+      margin-left: 14%;
+      margin-top: 5%;
+      margin-bottom: -7%;
+      opacity: 0.5;
+      position: relative;
+      top: 0px;
+  }
+  .would button {
+      background: linear-gradient(to left,#ff5858 0%,#f857a6 100%);
+      padding: 5px 7px;
+      color: #fff;
+      font-weight: 500;
+      border: none;
+      margin-top: 0px;
+     
+      border-radius: 10px;
+  }
+    .sixdp .cards h4 {
+        font-size: 100px;
+        position: relative;
+        left: 110px;
+        color: #E3E3E3;
+    }
+}
+@media only screen and (max-width: 375px) {
+
+  .would h4{
+      color: #fff;
+      padding-top: 11px;
+      letter-spacing: 1px;
+      font-size: 12px;
+  }
+  .would p {
+      color: #fff;
+      padding-right: 35%;
+      padding-top: 0px;
+      letter-spacing: 1px;
+      padding-top: 10px;
+      font-size: 10px;
+  }
+   .would button {
+      background: linear-gradient(to left,#ff5858 0%,#f857a6 100%);
+      padding: 4px 7px;
+      color: #fff;
+      font-weight: 400;
+      border: none;
+      margin-top: 8px;
+     
+      border-radius: 10px;
+  }
+
+  .would button {
+      background: linear-gradient(to left,#ff5858 0%,#f857a6 100%);
+      padding: 5px 7px;
+      color: #fff;
+      font-weight: 500;
+      border: none;
+      margin-top: 0px;
+     
+      border-radius: 10px;
+  }
+  .sec {
+      padding: 83px 5% 32%;
+      margin: 10px 10px 163px;
+      background-image: url(http://localhost:3000/static/media/bg-1.43cf703c.35acfee….webp);
+      height: 314Px;
+      width: 86%;
+      background-color: #8DC6BC;
+      margin-left: 14%;
+      margin-top: 5%;
+      margin-bottom: -7%;
+      opacity: 0.5;
+      position: relative;
+      top: 0px;
+  }
+    .whychoo .chooseus {
+        padding: 40px 15px 40px 30px;
+    }
+    .sixdp .card-style-one .icon {
+        width: 100px;
+        height: 100px;
+        border-radius: 15px;
+        margin-left: 0;
+        margin-top: 0px;
+    }
+    .sixdp .card-style-one .icon .lazy {
+        width: 100%;
+        margin-left: 107px;
+    }
+    .sixdp .card-style-one {
+        padding: 20px 20px;
+        margin-right: 11px;
+        border: 1px solid lightgrey;
+        box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.25);
+        background: rgba(249, 249, 249, 1);
+        width: 100%!important;
+    }
+    .sixdp .cards h4 {
+        font-size: 100px;
+        position: relative;
+        left: 90px;
+        color: #E3E3E3;
+    }
+    .sixdp .card-style-one h5 {
+        font-size: 2.1rem;
+    }
+    .sixdp .card-style-one ul li {
+        font-size: 22px;
+        color: #4E4E4E;
+    }
+    .box {
+        padding-top: 0px;
+        width: 140px !important;
+        height: 140px;
+        border-radius: 50%;
+        border: 7px solid lightgrey;
+        position: relative;
+        transition: 0.3s ease-out;
+        cursor: pointer;
+        margin-left: 85px;
+        margin-bottom: 100px;
+    }
+    .box h1 {
+        font-size: 30px;
+        padding-top: 40px;
+        align-items: center;
+        text-align: center;
+        margin: 5px;
+    }
+    .box p {
+        font-size: 22px;
+        margin-top: 75px;
+        letter-spacing: 2px;
+        line-height: 1.3;
+        text-align: center;
+    }
+    .box img {
+        top: 0px;
+        width: 70px;
+        height: 70px;
+        margin-left: 75%;
+        position: absolute;
+        background-color: #fff;
+        border-radius: 50%;
+        border: 10px;
+        border-color: white;
+        padding: 5px;
+    }
+    #second .row {
+        --bs-gutter-x: 0rem!important;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: calc(0.5 * var(--bs-gutter-x));
+        margin-left: calc(-.5 * var(--bs-gutter-x));
+    }
+    .pro {
+        margin-left: 85px !important;
+    }
+    .addr img {
+        vertical-align: middle;
+        width: 70%!important;
+        padding-top: 5px;
+        position: relative;
+        right: 5px;
+        top: 4px;
+    }
+    .addr p {
+        position: relative;
+        left: 10px!important;
+        color: #fff;
+    }
+    .program {
+        background-image: url(../public/img/Exp/programming-background-with-person-working-with-codes-computer.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+    }
+    .footor1 {
+        background: #00212f;
+        padding: 0 30px 60px 30px;
+        position: relative;
+        top: 0;
+        z-index: 0;
+        margin-top: -315px;
+    }
+    .footor .would {
+        background-image: url(../public/img/Exp/Rectangle\ 57.webp );
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 90%;
+        height: 310px;
+        position: relative;
+        top: -310px;
+        padding: 0 0%;
+    }
+    .footor .sec {
+      padding: 152px 5% 30%;
+        height: 350px;
+        width: 80%;
+        background-color: #8DC6BC;
+        margin-left: 20%;
+        opacity: 0.5;
+    }
+    .addre p {
+        position: relative;
+        left: 0px;
+        font-size: 20px;
+    }
+    .addre img {
+        vertical-align: middle;
+        width: 52%!important;
+        padding-top: 5px;
+        position: relative;
+        right: 25px;
+        top: 30px;
+    }
+}
